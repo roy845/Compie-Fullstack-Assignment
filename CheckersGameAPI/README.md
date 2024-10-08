@@ -64,7 +64,7 @@ The game ends when a player captures all of the opponent's pieces or no further 
 
 - <strong> Backend (.NET setup): </strong>
 
-  - Open the folder CheckersGameApi in Visual Studio 2022 and run the project.
+  - Open the folder CheckersGameApi and opent the file CheckersGameAPI.sln in Visual Studio 2022 and run the project.
 
 - <strong> Backend (NodeJs with express - SocketIO server): </strong>
 
