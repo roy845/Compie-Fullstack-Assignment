@@ -1,0 +1,6 @@
+@CheckersGameAPI_HostAddress = http://localhost:5186
+
+GET {{CheckersGameAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

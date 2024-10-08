@@ -1,0 +1,13 @@
+.current-player-heading {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.player1-color {
+  color: #dc2626;
+}
+
+.player2-color {
+  color: #2563eb;
+}

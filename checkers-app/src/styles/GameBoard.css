@@ -1,0 +1,44 @@
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 0;
+  margin-bottom: 0;
+}
+
+.square {
+  width: 4rem; /* Equivalent to w-16 */
+  height: 4rem; /* Equivalent to h-16 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.teal-square {
+  background-color: #14b8a6;
+}
+
+.gray-square {
+  background-color: #d1d5db;
+}
+
+.checker {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+.player1-checker {
+  background-color: #dc2626;
+}
+
+.player2-checker {
+  background-color: #2563eb;
+}
+
+.selected-checker {
+  border-width: 4px;
+  border-color: white;
+  border-style: solid;
+  box-shadow: 0px 4px 10px rgb(6, 91, 152);
+}
